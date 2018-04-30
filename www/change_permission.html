@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改权限</title>
+</head>
+
+<body background="images/p5.jpg">
+<div align="center">
+  <table width="900" height="192" border="0" background="./images/head.gif">
+    <tr>
+      <th width="385" height="80" scope="col">&nbsp;</th>
+    </tr>
+  </table>
+</div>
+<p></p>
+
+<div align="center">
+	<table width="900" height="611" border="0">
+	<tr> 
+  		<td><form  name="myform" method="get" action="cgi-bin/change_permission.cgi">
+          <div align="center">
+            <table width="240"  align="left">
+              <tr>
+                <td align="center" width="70">用户名</td>
+                <td align="center" width="150"><input type="text" name="username" id="username" /></td>
+              </tr>
+              <tr>
+                <td align="center" width="70">密码</td>
+                <td align="center" width="150"><input type="password" name="userpasswd" id="userpasswd" /></td>
+              </tr>
+			  <tr>
+                <td align="center" width="70">新权限</td>
+                <td align="center" width="150"><input type="text" name="userpermission" id="userpermission" value="like:BEEP"/></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td align="center"><input type="submit" name="button" id="button" value="修改权限" style="background-color:transparent"/>
+				</td>
+				
+              </tr>
+            </table>
+          </div>
+ 		</form></td>
+     </tr>
+  
+ 	</table>
+</div>
+</body>
+</html>

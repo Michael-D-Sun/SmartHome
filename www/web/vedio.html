@@ -1,0 +1,79 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理界面上</title>
+<style>
+body{font-size:20pt;}
+a{text-decoration:none;}
+</style>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: "楷体";
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body background="./image/p5.jpg" >
+ <h1 align="center" class="STYLE1">智能农场实时监控</h1>
+
+<div align="center"></div>
+
+
+<table width="1325" height="689" border="0">
+  <tr>
+    <td width="244" height="685" background="./image/vide2.jpg"></td>
+    <td width="777"><table width="777" border="0">
+      <tr>
+        <td width="771" height="52"><table width="771" border="0">
+          <tr>
+            <td width="387" height="81"> <form id="form1" name="form1"  method="post"  action="cgi-bin/pause.cgi">
+              <label>
+              <div align="center">
+                <input type="submit" name="zhuapai" id="zhuapai" value="抓拍"  width="100" height="600"/>
+               
+              </div>
+              </label> 
+            </form> </td>          
+            <td width="374"><form id="form2" name="form2" method="get"  action="">
+              <label><p align="right">
+
+<div id="time" align="right">    
+  <script>     
+		document.getElementById('time').innerHTML=new Date().toLocaleString();     
+		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",1000);  
+	</script>    
+</div>    
+ </p>
+              </label></form>            </td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="533">
+<div class="span124">
+				
+				<div class="slider-holder">
+	
+					<div class="slider" align="center">
+					<img src="http://192.168.3.234:8080/?action=stream" alt="" />
+					</div>
+				</div>
+			</div>	
+        </td>
+      </tr>
+      <tr>
+        <td height="33">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td width="290" background="./image/tianhe.jpg"></td>
+  </tr>
+</table>
+</body>
+</html>

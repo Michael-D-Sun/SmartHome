@@ -1,0 +1,11 @@
+Here is file struct description
+
+Device  directory : The device source code package with C++;
+Include  directory : All the head file that using for every C files;
+Msg_queue_thread directory : This IPC & CGI for HTML is stored with this directory;
+Socket directory : The network source code package;
+edison_client_source directory : The arduino process,Local process,car client driver source code package;
+
+
+  
+ 

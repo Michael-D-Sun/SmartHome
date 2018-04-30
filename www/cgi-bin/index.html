@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理中心</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 36px
+}
+.STYLE2 {color: #FF0000}
+.STYLE3 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.STYLE4 {font-size: 36px; color: #FF0000; }
+.STYLE5 {font-size: 24px; }
+.STYLE8 {color: #FF00FF}
+-->
+</style>
+</head>
+
+<body background="./image/p7.jpg "width="1366"  height="768" >
+<table width="1345" height="655" border="0">
+<caption class="STYLE1">
+<span class="STYLE4">智能农场管理中心    </span><br />
+    <br />
+</caption>
+  <tr>
+    <td width="351" height="147" background="./gif/video.jpg"  ><form action="" method="post" name="form2" class="STYLE1 STYLE2" id="form2">
+      <div align="center"><strong> <a href="历史照片.html" class="STYLE8">历史照片</a> </strong></div>
+    </form>    </td>
+    <td width="612" class="STYLE1" background="./gif/35.jpg"><form action="" method="post" name="form1" class="STYLE2" id="form1">
+      <div align="center" class="STYLE3"><a href="实时监控.html" class="STYLE8">实时监控      </a></div>
+    </form>    </td>
+    <td width="368" background="./gif/5.jpg"><form id="form3" name="form3" method="post" action="">
+      <div align="center">
+        <h1 class="STYLE4"><a href="环境信息界面.html" class="STYLE8">环境信息        </a></h1>
+      </div>
+    </form>    </td>
+  </tr>
+  <tr>
+    <td height="464"><form id="form5" name="form5" method="post" action="">
+      <label>
+      <div align="center">        
+        <p><span class="STYLE5">IP　地址 
+            <input type="text" name="ip" id="ip"  size="23" />
+        </span></p>
+      
+      <p align="center" class="STYLE5">
+        <label> 网关地址
+          <input type="text" name="mask" id="mask"  size="22"/>
+          </label>
+      </p></div>
+      <p align="center" class="STYLE5">
+        <label>
+          <input type="submit" name="start_wifi" id="start_wifi" value="开启wifi" />
+          </label>
+      </p></form>   
+      <form  id="from7"  name="from7" method="post" action="">
+       <div id="haoma"  align="center">
+         <p align="center" class="STYLE5">
+          <label>接收号码
+          <input type="text" name="phone" id="phone"  size="22"/>
+          </label>
+      </p>
+      <p align="center" class="STYLE5">
+        <label>中心号码
+          <input type="text" name="phone_home" id="phone_home"  size="22"/>
+          </label>
+      </p><p align="center">
+        <span class="STYLE5">
+        <label>
+        <input type="submit" name="haoma_tijiao" id="haoma_tijiao" value="提交" />
+		&nbsp;&nbsp;
+        <input type="reset" name="haoma_chongzhi" id="haoma_chongzhi" value="重置" />
+        </label>
+        </span>      </p></div></form>
+        
+      <h3 align="center">&nbsp; </h3>
+    </form>    </td>
+    <td><form id="form4" name="form4" method="post" action=""><div align="center">
+        <p><span class="STYLE5">空气最高温度
+            
+            <input type="text" name="wen_max" id="wen_max"  size="10" />
+			&nbsp; &nbsp;
+          空气最低温度
+          <input type="text" name="wen_min" id="wen_min" size="10" />
+          <br />
+          空气最高湿度
+          <input type="text" name="kong_shi_max" id="kong_shi_max" size="10"/>
+		&nbsp; &nbsp;
+          空气最低湿度
+          <input type="text" name="kong_shi_min" id="kong_shi_min" size="10"/>
+          <br />
+          <br />
+          土壤最高温度
+          <input type="text" name="tu_wen_max" id="tu_wen_max" size="10"//>
+		&nbsp; &nbsp;
+          土壤最低温度
+          <input type="text" name="tu_wen_min" id="tu_wen_min" size="10"//>
+          <br />
+          土壤最高湿度
+          <input type="text" name="tu_shi_max" id="tu_shi_max" size="10"//>
+		&nbsp; &nbsp; 土壤最低湿度
+			<input type="text" name="tu_shi_min" id="tu_shi_min" size="10"/>
+          <br />
+          </span><span class="STYLE5"><br />
+          光照最大强度
+          <input type="text" name="sun_max" id="sun_max" size="10"/>
+		&nbsp; &nbsp;
+          光照最低强度
+          <input type="text" name="sun_min" id="sun_min" size="10"/>
+          <br />
+          <br />
+                  </span></p>
+      </div>
+      <div align="center" class="STYLE5">
+        <p><input name="tijiao" type="submit" id="tijiao" value="提交" />
+        &nbsp; &nbsp;
+        <input type="reset" name="chongzhi" id="chongzhi" value="重置" />
+      </p></div>
+      <p></label>
+      </p><div align="center"></div>
+    </form>     </td>
+    
+    <td><form id="form6" name="form6" method="post" action="">
+      <p><label></label>
+      </p><div align="center">
+        <p class="STYLE5">M3控制</p>
+        <p class="STYLE5">报警  
+          <input type="radio" name="radio" id="beep_on" value="beep_on" />
+          on
+          <input type="radio" name="radio" id="beep_off" value="beep_off" />
+          off
+            &nbsp;&nbsp;
+            <input type="submit" name="beep_ok" id="beep_ok" value="OK" />
+        </p>
+      </div>
+      </form>
+      <form action="" method="post"  name="from8" class="STYLE5" id="from8">
+      <div align="center" >
+        <p>风扇
+          <input type="radio" name="radio" id="fengshan_on" value="fengshan_on" />
+          on
+          <input type="radio" name="radio" id="fengsahn_off" value="fengsahn_off" />
+          off
+          &nbsp;&nbsp;
+            <input type="submit" name="fengshan_ok" id="fengshan_ok" value="OK" />
+        </p></div>
+        </form>
+        <form action="" method="post" name="from9" class="STYLE5" id="from9">
+          <div align="center"> <p>
+            <label>风扇档位
+              &nbsp;&nbsp;
+              <select name="fengshan_dangwei" size="1" id="fengshan_dangwei" >
+                <option>档位1</option>
+                <option>档位2</option>
+                <option>档位3</option>
+              </select>
+              </label>
+  &nbsp;
+            <label>
+              <input type="submit" name="dangwei_ok" id="dangwei_ok" value="OK" />
+              </label>
+            </p>
+          </div>
+        </form>
+        <form action="" method="post" name="from10" class="STYLE5" id="from10">
+        <div align="center"><p>
+          <label>水泵
+          
+          <input type="radio" name="radio" id="shuibang_on" value="shuibang_on" />
+          on</label>        
+            <label>
+            <input type="radio" name="radio" id="shuiwei_off" value="shuiwei_off" />
+            off</label>
+&nbsp;&nbsp;
+            <label>
+            <input type="submit" name="shuiwei_ok" id="shuiwei_ok" value="OK" />
+            </label>
+        </p>
+        </div></form>
+      </div>
+      <form action="" method="post" name="from11" class="STYLE5" id="from11">
+      <div align="center"></div>
+      <div align="center"></div>
+      <p align="center">
+        <label></label>
+        <label> 灯1&nbsp;
+        <input type="radio" name="radio" id="led1_on" value="led1_on" />
+        on
+        <input type="radio" name="radio" id="led1_off" value="led1_off" />
+        off</label>
+&nbsp;&nbsp;
+        <label>
+        <input type="submit" name="led1_ok" id="led1_ok" value="OK" />
+        </label>
+      </p></form>
+      <form action="" method="post" name="from12" class="STYLE5" id="from12">
+      <div align="center"><p align="center">
+        <label></label>
+        <label> 灯2&nbsp;
+        <input type="radio" name="radio" id="led2_on" value="led2_on" />
+        on
+        <input type="radio" name="radio" id="led2_off" value="led2_off" />
+        off</label>
+&nbsp;&nbsp;
+        <label>
+        <input type="submit" name="led2_ok" id="led2_ok" value="OK" />
+        </label>
+      </p></div></form>
+      <form action="" method="post" name="from13" class="STYLE5" id="from13">
+      <div align="center"><p align="center">
+        <label></label>
+        <label> 灯3&nbsp;
+        <input type="radio" name="radio" id="led3_on" value="led3_on" />
+        on
+        <input type="radio" name="radio" id="led3_off" value="led3_off" />
+        off</label>
+&nbsp;&nbsp;
+        <label>
+        <input type="submit" name="led3_ok" id="led3_ok" value="OK" />
+        </label>
+      </p></div></form>
+      <p align="center" class="STYLE5">
+        <label></label>
+        <label></label>
+        <label></label>
+      </p>
+      </form>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

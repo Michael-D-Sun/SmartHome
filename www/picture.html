@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>智能农场——历史照片</title>
+<style type="text/css">
+<!--
+.STYLE2 {
+	color: #FF0000;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: "楷体";
+}
+-->
+</style>
+</head>
+
+<body background="./image/ear.jpg">
+<table width="1304" border="0">
+  <tr>
+    <td width="1268" height="114" background="./gif/5.gif"><form id="form1" name="form1" method="post"  action="">
+      <div align="center" >
+      <div align="center" class="STYLE2">
+        <h1>抓拍照片</h1>
+      </div>
+    </form>    </td>
+  </tr>
+  <tr>
+    <td height="437">
+<div class="slider-holder" align="center">
+				<!--	<span class="slider-shadow"></span>-->
+				<form id="picture" name="picture" method="post" action="">
+                	<div class="slider">
+					<img src="http://192.168.3.234:8080/?action=snapshot" alt="抓拍照片" />					</div>
+				</form></div>   </td>
+  </tr>
+   
+  <tr>
+    <td height="44">s
+    <div id="time" align="right">    
+  <script>     
+		document.getElementById('time').innerHTML=new Date().toLocaleString();     
+		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",0);  
+	</script>    
+</div>    </td>
+  </tr>
+</table>
+</body>
+</html>

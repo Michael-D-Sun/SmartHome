@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" >
+	var i=0;
+function next_pic(){
+	pic01= document.getElementById('image01')
+	pic01.src="../pice/2000_08_11_06_02_28_picture_00000001"+i+".jpg"
+	i++
+}
+function forword_pic(){
+	pic01= document.getElementById('image01')
+	pic01.src="../pice/2000_08_11_06_02_28_picture_00000001"+i+".jpg"
+	i--
+}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body background="gif/23.jpg">
+	
+<form id="from1" name="from1"  method="post" action="cgi-bin/history.cgi"  >
+  
+   <label></label>
+  
+   <div class="slider" align="center">
+		<img src="../pice/2000_08_11_09_13_50_picture_000000000.jpg" id="image01" alt="已到底部" >
+	</div>
+   <table width="1221" border="0">
+     <tr>
+       <td width="424" height="83">&nbsp;</td>
+       <td width="601"><table width="716" border="0">
+         <tr>
+           <td width="358" height="54"><label>
+             <div align="center">
+           
+               <input  type="button" name="pre" id="pre"  value="上一张"  onclick="forword_pic()" />
+              </div>
+           </label></td>
+           <td width="348"><label>
+               <label>
+               <div align="center">
+                 <input  type="button" name="next" id="next" value="下一张" onclick="next_pic()"/>
+               </div>
+               </label>
+              <div align="center"></div>
+            </label></td>
+         </tr>
+       </table></td>
+       <td width="174">&nbsp;</td>
+     </tr>
+   </table>
+   <p>&nbsp;</p>
+</form>
+   
+<form id="form1" name="form1" method="post" action="">
+  <label></label>
+</form>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Management Center</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 36px
+}
+.STYLE2 {color: #FF0000}
+.STYLE3 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.STYLE5 {font-size: 24px; }
+.STYLE12 {font-family: "楷体"}
+.STYLE13 {font-size: 24px; font-family: "楷体"; }
+.STYLE14 {font-family: "Times New Roman", Times, serif}
+.STYLE16 {
+	font-size: 24px
+}
+.STYLE17 {color: #FF00FF}
+.STYLE18 {font-family: "宋体"}
+.STYLE19 {font-size: 24px; font-family: "宋体"; }
+.STYLE20 {
+	font-size: 36px;
+	color: #FF00FF;
+}
+.STYLE21 {font-size: 36px; font-family: "宋体"; }
+-->
+</style>
+</head>
+
+<body background="../images/p7.jpg "width="1366"  height="768"  >
+<table width="1318" height="882" border="0">
+<caption>
+ <span class="STYLE21">Intelligent Housekeeper Assistant</span><span class="STYLE1"><br />
+ </span>
+</caption>
+  <tr>
+    <td width="351" height="152" background="./gif/video.jpg"   ><form action="cgi-bin/picture1.cgi" method="post" name="form2" class="STYLE1 STYLE2" id="form2">
+      <div align="center">
+        <label class="STYLE20">
+        <input name="history_picture" type="submit" class="STYLE20" id="history_picture" value="History Picture" />
+        </label>
+      </div>
+    </form>    </td>
+    <td width="612" class="STYLE1" background="./gif/35.jpg"><form action="cgi-bin/monitor.cgi" method="post" name="form1" class="STYLE2" id="form1">
+      <div align="center" class="STYLE3"><a href="video1.html" class="STYLE17">Real Monitor</a></div>
+    </form>    </td>
+    <td width="341" background="./gif/5.jpg"><form id="form7" name="form7" method="post" action="cgi-bin/environment.cgi">
+        <label>
+        <div align="center"><strong></strong>
+
+          <input name="environment" type="submit" class="STYLE20" id="environment" value="Environment"  size="40" height="30"/>
+        </div>
+        </label>
+      </form>    </td>
+  </tr>
+<td>
+       <div align="center">
+	   		<form id="form1" name="form1" method="post" action="">
+
+			<p>
+			<label>Modify Passworld
+				<a href="./change_pswd.html">change_pswd</a>
+			</label>
+			</p>
+			<p>
+			<label>Add &nbsp;Permission
+				<a href="./change_permission.html">change_permission</a>
+			</label>
+			</p>
+
+
+</form>
+<form id="form2" name="form2" method="post" action="cgi-bin/flite.cgi">
+         <span class="STYLE13">&nbsp; &nbsp;<br />
+            <span class="STYLE18">Set Temperature&nbsp;</span> &nbsp;<br />
+          </span>
+        <table width="556" border="0" >
+          <tr>
+            <td width="271"><div align="center" class="STYLE18"><span class="STYLE16">Max Temperature
+              <input type="text" name="max" id="max"  size="10"  height="20" value="99"/>
+            </span></div></td>
+            <td width="269"><div align="center" class="STYLE18"><span class="STYLE16">Min Temperature
+              <input type="text" name="min" id="min" size="10"  height="20" value="0"/>
+            </span></div></td>
+          </tr>
+
+        </table>
+
+        <span class="STYLE5"><br />
+          </span>       </div>
+      <div align="center" class="STYLE5">
+        <input name="tijiao" type="submit" id="tijiao" value="&nbsp;OK&nbsp;" />
+		&nbsp;&nbsp;
+		<input type="reset" name="wendu_chongzhi" id="haoma_chongzhi" value="Reset" />
+      </div>
+	</form>
+      <div align="center"></div>
+    </form>     </td>
+    
+    <td><form id="form6" name="form6" method="post" action="cgi-bin/beep.cgi">
+      <p><label></label>
+      </p><div align="center">
+
+        <p width="90" height="56"><div align="center" class="STYLE19">&nbsp;Alarm
+          <input type="radio" name="radio" id="beep_on" value="beep_on" />
+          on
+          <input type="radio" name="radio" id="beep_off" value="beep_off" />
+          off &nbsp;&nbsp;&nbsp;
+          <input type="submit" name="beep_ok" id="beep_ok" value="OK" />
+        </p>
+      </div>
+      </form>
+       
+      <form action="cgi-bin/led.cgi" method="post" name="from11" class="STYLE13" id="from11">
+      <div align="center"></div>
+      <div align="center"></div>
+      <p align="center">
+        <label></label>
+        <label> </label>
+      </p>
+       <table width="500" border="0">
+        <tr>
+          <td width="150" height="56"><div align="center" class="STYLE18">Living Room</div></td>
+          <td><label>
+            <input type="radio" name="radio" id="led1_on" value="led1_on" />
+            <span class="STYLE14">on</span></label>
+            <input type="radio" name="radio" id="led1_off" value="led1_off" />
+              <span class="STYLE14">off</span>
+              <div align="justify"></div>
+            </label></td>
+          <td width="110"><label>
+        
+          <div align="center">
+            <input type="submit" name="led1_ok" id="led1_ok" value="OK" />
+          </div>
+          </label></td>
+        </tr>
+        <tr>
+          <td height="78">
+            <label>
+           
+            <div align="right" class="STYLE18"> Bedroom </div>
+            <span class="STYLE18">
+            </label>
+            </span></td>
+          <td><label>
+            
+              <input type="radio" name="radio" id="led2_on" value="led2_on" />
+              <span class="STYLE14">on</span></label>
+            <label>
+            
+              <input type="radio" name="radio" id="led2_off" value="led2_off" />
+              <span class="STYLE14">off</span></label></td>
+          <td><div align="center">
+              <input type="submit" name="led2_ok" id="led2_ok" value="OK" />
+            </div>
+            <div align="center"></div>
+            <label></label>
+            <div align="center"></div></td>
+        </tr>
+		        <tr>
+          <td width="80" height="56"><div align="right" class="STYLE18"> Kitchen </div></td>
+          <td><label>
+            <input type="radio" name="radio" id="led3_on" value="led3_on" />
+            <span class="STYLE14">on</span></label>
+            <input type="radio" name="radio" id="led3_off" value="led3_off" />
+              <span class="STYLE14">off</span>
+              <div align="justify"></div>
+            </label></td>
+          <td width="110"><label>
+        
+          <div align="center">
+            <input type="submit" name="led3_ok" id="led3_ok" value="OK" />
+          </div>
+          </label></td>
+        </tr>
+		        <tr>
+          <td width="71" height="56"><div align="right" class="STYLE18"> Toilet </div></td>
+          <td><label>
+            <input type="radio" name="radio" id="led4_on" value="led4_on" />
+            <span class="STYLE14">on</span></label>
+            <input type="radio" name="radio" id="led4_off" value="led4_off" />
+              <span class="STYLE14">off</span>
+              <div align="justify"></div>
+            </label></td>
+          <td width="110"><label>
+        
+          <div align="center">
+            <input type="submit" name="led4_ok" id="led4_ok" value="OK" />
+          </div>
+          </label></td>
+        </tr>
+		
+		<tr>
+          <td width="71" height="56"><div align="right" class="STYLE18"> AllLight </div></td>
+          <td><label>
+            <input type="radio" name="radio" id="ledall_on" value="ledall_on" />
+            <span class="STYLE14">on</span></label>
+            <input type="radio" name="radio" id="ledall_off" value="ledall_off" />
+              <span class="STYLE14">off</span>
+              <div align="justify"></div>
+            </label></td>
+          <td width="110"><label>
+        
+          <div align="center">
+            <input type="submit" name="led5_ok" id="led5_ok" value="OK" />
+          </div>
+          </label></td>
+        </tr>
+		
+      </table>
+      <p align="center">
+        <label></label>&nbsp;&nbsp;</p>
+      </form>
+      <p align="center" class="STYLE5">
+        <label></label>
+        <label></label>
+        <label></label>
+      </p>
+      </form>    </td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

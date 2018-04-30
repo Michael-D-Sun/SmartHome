@@ -1,0 +1,270 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AcceptConnect	smart_home_socket.cpp	/^		int AcceptConnect(int sockfd,int *confd)$/;"	f	class:Socket
+BEEP	edison_intel_client/client/smart_home_cmd.h	6;"	d
+BEEP	include/smart_home_cmd.h	6;"	d
+BEEPTHREAD_H	include/smart_home_beep.h	2;"	d
+BEEP_OFF	edison_intel_client/client/smart_home_cmd.h	34;"	d
+BEEP_OFF	include/smart_home_cmd.h	34;"	d
+BEEP_ON	edison_intel_client/client/smart_home_cmd.h	33;"	d
+BEEP_ON	include/smart_home_cmd.h	33;"	d
+Beep	main.cpp	/^		Beep()$/;"	f	class:Beep
+Beep	main.cpp	/^class Beep{$/;"	c	file:
+CC	Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+CC	device/Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+CC	msg_queue_thread/Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+CC	socket/Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+CPP_CC	Makefile	/^CPP_CC=arm-none-linux-gnueabi-g++$/;"	m
+CPP_O	Makefile	/^CPP_O:=$(basename $(CPP_SRC)).o$/;"	m
+CPP_O2	Makefile	/^CPP_O2:=$(basename $(CPP_SRC2)).o$/;"	m
+CPP_SRC	Makefile	/^CPP_SRC=main.cpp$/;"	m
+CPP_SRC2	Makefile	/^CPP_SRC2=smart_home_socket.cpp$/;"	m
+C_O1	Makefile	/^C_O1:=$(basename $(C_SRC1)).o$/;"	m
+C_O2	Makefile	/^C_O2:=$(basename $(C_SRC2)).o$/;"	m
+DEBUG	socket/socket_route.c	6;"	d	file:
+ENV	msg_queue_thread/detector_thread.c	/^}ENV;$/;"	t	typeref:struct:__anon2	file:
+HEAD_PATH	Makefile	/^HEAD_PATH:=$(shell pwd)\/include$/;"	m
+HEAD_PATH	device/Makefile	/^HEAD_PATH=-I ..\/include\/$/;"	m
+HEAD_PATH	msg_queue_thread/Makefile	/^HEAD_PATH=-I ..\/include\/$/;"	m
+HEAD_PATH	socket/Makefile	/^HEAD_PATH=-I ..\/include\/$/;"	m
+Handle_error	edison_intel_client/client/main.cpp	13;"	d	file:
+Handle_error	socket/socket_route.c	5;"	d	file:
+LDDIR	Makefile	/^LDDIR=.\/LDDIR$/;"	m
+LED	edison_intel_client/client/smart_home_cmd.h	5;"	d
+LED	include/smart_home_cmd.h	5;"	d
+LED1_OFF	edison_intel_client/client/smart_home_cmd.h	20;"	d
+LED1_OFF	include/smart_home_cmd.h	20;"	d
+LED1_ON	edison_intel_client/client/smart_home_cmd.h	19;"	d
+LED1_ON	include/smart_home_cmd.h	19;"	d
+LED2_OFF	edison_intel_client/client/smart_home_cmd.h	22;"	d
+LED2_OFF	include/smart_home_cmd.h	22;"	d
+LED2_ON	edison_intel_client/client/smart_home_cmd.h	21;"	d
+LED2_ON	include/smart_home_cmd.h	21;"	d
+LED3_OFF	edison_intel_client/client/smart_home_cmd.h	24;"	d
+LED3_OFF	include/smart_home_cmd.h	24;"	d
+LED3_ON	edison_intel_client/client/smart_home_cmd.h	23;"	d
+LED3_ON	include/smart_home_cmd.h	23;"	d
+LED4_OFF	edison_intel_client/client/smart_home_cmd.h	26;"	d
+LED4_OFF	include/smart_home_cmd.h	26;"	d
+LED4_ON	edison_intel_client/client/smart_home_cmd.h	25;"	d
+LED4_ON	include/smart_home_cmd.h	25;"	d
+LEDALL_OFF	edison_intel_client/client/smart_home_cmd.h	28;"	d
+LEDALL_OFF	include/smart_home_cmd.h	28;"	d
+LEDALL_ON	edison_intel_client/client/smart_home_cmd.h	27;"	d
+LEDALL_ON	include/smart_home_cmd.h	27;"	d
+LEDTHREAD_H	device/smart_home_led.c	2;"	d	file:
+LEDTHREAD_H	include/smart_home_led.h	2;"	d
+Led	main.cpp	/^		Led()$/;"	f	class:Led
+Led	main.cpp	/^class Led{$/;"	c	file:
+MMAP_HPP	edison_intel_client/client/mmap.h	26;"	d
+MMAP_HPP	include/smart_home_mmap.h	4;"	d
+MYLED_BEEP_CNTL_H	edison_intel_client/client/smart_home_cmd.h	2;"	d
+MYLED_BEEP_CNTL_H	include/smart_home_cmd.h	2;"	d
+NO_PERMISSION	edison_intel_client/client/smart_home_cmd.h	13;"	d
+NO_PERMISSION	include/smart_home_cmd.h	13;"	d
+NO_USR	edison_intel_client/client/smart_home_cmd.h	15;"	d
+NO_USR	include/smart_home_cmd.h	15;"	d
+OBJ	Makefile	/^OBJ=run$/;"	m
+PERMISSION	edison_intel_client/client/smart_home_cmd.h	7;"	d
+PERMISSION	include/smart_home_cmd.h	7;"	d
+PERMISSION_ERR	edison_intel_client/client/smart_home_cmd.h	14;"	d
+PERMISSION_ERR	include/smart_home_cmd.h	14;"	d
+PERMITTED	edison_intel_client/client/smart_home_cmd.h	12;"	d
+PERMITTED	include/smart_home_cmd.h	12;"	d
+PERM_ALL	include/smart_home_adapter.h	31;"	d
+PERM_BEEP_OFF	include/smart_home_adapter.h	20;"	d
+PERM_BEEP_ON	include/smart_home_adapter.h	19;"	d
+PERM_GAS_READ	include/smart_home_adapter.h	21;"	d
+PERM_GAS_WRITE	include/smart_home_adapter.h	22;"	d
+PERM_LED1_OFF	include/smart_home_adapter.h	24;"	d
+PERM_LED1_ON	include/smart_home_adapter.h	23;"	d
+PERM_LED2_OFF	include/smart_home_adapter.h	26;"	d
+PERM_LED2_ON	include/smart_home_adapter.h	25;"	d
+PERM_LED3_OFF	include/smart_home_adapter.h	28;"	d
+PERM_LED3_ON	include/smart_home_adapter.h	27;"	d
+PERM_LED4_OFF	include/smart_home_adapter.h	30;"	d
+PERM_LED4_ON	include/smart_home_adapter.h	29;"	d
+PERM_TEMPERATURE_READ	include/smart_home_adapter.h	17;"	d
+READ_GAS	edison_intel_client/client/smart_home_cmd.h	45;"	d
+READ_GAS	include/smart_home_cmd.h	45;"	d
+READ_HUMDIDITY	edison_intel_client/client/smart_home_cmd.h	51;"	d
+READ_HUMDIDITY	include/smart_home_cmd.h	51;"	d
+READ_LIGHT	edison_intel_client/client/smart_home_cmd.h	41;"	d
+READ_LIGHT	include/smart_home_cmd.h	41;"	d
+READ_SHAKE	edison_intel_client/client/smart_home_cmd.h	48;"	d
+READ_SHAKE	include/smart_home_cmd.h	48;"	d
+READ_SOUND	edison_intel_client/client/smart_home_cmd.h	54;"	d
+READ_SOUND	include/smart_home_cmd.h	54;"	d
+READ_TEMPERATURE	edison_intel_client/client/smart_home_cmd.h	37;"	d
+READ_TEMPERATURE	include/smart_home_cmd.h	37;"	d
+READ_TOUCH	edison_intel_client/client/smart_home_cmd.h	60;"	d
+READ_TOUCH	include/smart_home_cmd.h	60;"	d
+READ_VIBRATION	edison_intel_client/client/smart_home_cmd.h	57;"	d
+READ_VIBRATION	include/smart_home_cmd.h	57;"	d
+SMART_HOME_MPU6050_ACCEL	include/smart_home_mpu6050.h	12;"	d
+SMART_HOME_MPU6050_GYRO	include/smart_home_mpu6050.h	11;"	d
+SMART_HOME_MPU6050_TEMP	include/smart_home_mpu6050.h	13;"	d
+SOCKET_CONNECT_CLOSE	edison_intel_client/client/smart_home_cmd.h	63;"	d
+SOCKET_CONNECT_CLOSE	include/smart_home_cmd.h	63;"	d
+SOCKET_CONNECT_READY_CMD	edison_intel_client/client/smart_home_cmd.h	67;"	d
+SOCKET_CONNECT_READY_CMD	include/smart_home_cmd.h	67;"	d
+SOCKET_CONNECT_REALTIME	edison_intel_client/client/smart_home_cmd.h	65;"	d
+SOCKET_CONNECT_REALTIME	include/smart_home_cmd.h	65;"	d
+SOCKET_CONNECT_SEND_CMD	edison_intel_client/client/smart_home_cmd.h	66;"	d
+SOCKET_CONNECT_SEND_CMD	include/smart_home_cmd.h	66;"	d
+SOCKET_CONNECT_SLEEP	edison_intel_client/client/smart_home_cmd.h	64;"	d
+SOCKET_CONNECT_SLEEP	include/smart_home_cmd.h	64;"	d
+SRC	device/Makefile	/^SRC:=*.c$/;"	m
+SRC	msg_queue_thread/Makefile	/^SRC:=*.c$/;"	m
+SRC	socket/Makefile	/^SRC:=*.c$/;"	m
+SRC_O	device/Makefile	/^SRC_O:=$(foreach i,$(SRC),$(basename $(i)).o)$/;"	m
+SRC_O	msg_queue_thread/Makefile	/^SRC_O:=$(foreach i,$(SRC),$(basename $(i)).o)$/;"	m
+SRC_O	socket/Makefile	/^SRC_O:=$(foreach i,$(SRC),$(basename $(i)).o)$/;"	m
+SensorValue	include/smart_home_socket.h	/^}SensorValue;$/;"	t	typeref:struct:__anon6
+Socket	smart_home_socket.cpp	/^		Socket(string ip,int port,int num){$/;"	f	class:Socket
+Socket	smart_home_socket.cpp	/^class Socket{$/;"	c	file:
+SocketSensorRead	main.cpp	/^void *SocketSensorRead(void *he)$/;"	f
+TEMP	include/smart_home_temperature.h	/^}TEMP;$/;"	t	typeref:struct:__anon3
+TEMPERATURE_WRITE	include/smart_home_adapter.h	18;"	d
+TEMP_H	include/smart_home_temperature.h	2;"	d
+WRITE_LIGHT	edison_intel_client/client/smart_home_cmd.h	42;"	d
+WRITE_LIGHT	include/smart_home_cmd.h	42;"	d
+WRITE_TEMPERATURE	edison_intel_client/client/smart_home_cmd.h	38;"	d
+WRITE_TEMPERATURE	include/smart_home_cmd.h	38;"	d
+_SMART_HOME_C_APP_LIB_H_	include/smart_home_C_app_lib.h	2;"	d
+_SMART_HOME_MSG_QUEUE_H	include/smart_home_msg_queue.h	2;"	d
+_SMART_HOME_QUEUE_H_	include/smart_home_queue.h	3;"	d
+_SMART_HOME_SOCKET_H_	include/smart_home_socket.h	2;"	d
+__HEAD_H__	include/smart_home_mpu6050.h	2;"	d
+__SMART_HOME_ADAPTER_H__	include/smart_home_adapter.h	2;"	d
+beep_ctl	device/smart_home_beep.c	/^void beep_ctl(int fd_beep,unsigned long cmd)$/;"	f
+beep_fd	include/smart_home_socket.h	/^	int beep_fd;$/;"	m	struct:__anon5
+clean_linkqueue	socket/smart_home_queue.c	/^int clean_linkqueue(linkqueue_t *lqp)$/;"	f
+clientaddr	socket/socket_route.c	/^struct sockaddr_in hostaddr,clientaddr[10];$/;"	v	typeref:struct:
+closeConnect	smart_home_socket.cpp	/^		int closeConnect(int confd)$/;"	f	class:Socket
+close_connect	socket/socket_route.c	/^int close_connect(int confd)$/;"	f
+cmd	include/smart_home_adapter.h	/^	unsigned int cmd;$/;"	m	struct:__anon7
+cmd_from_socket	socket/socket_route.c	/^int cmd_from_socket(int cmd,const char *name)$/;"	f
+cntl_beep_cgi	main.cpp	/^void *cntl_beep_cgi(void *argv)$/;"	f
+cntl_beep_from_cgi	msg_queue_thread/beep_thread.c	/^int cntl_beep_from_cgi(int argv)$/;"	f
+cntl_detector_thread	main.cpp	/^void *cntl_detector_thread(void *argv)$/;"	f
+cntl_led_cgi	main.cpp	/^void *cntl_led_cgi(void * argv)$/;"	f
+cntl_led_from_cgi	msg_queue_thread/led_thread.c	/^int cntl_led_from_cgi(int argv)$/;"	f
+cntl_mpu6050_cgi	main.cpp	/^void *cntl_mpu6050_cgi(void *argv)$/;"	f
+cntl_mpu6050_thread	msg_queue_thread/mpu6050.c	/^int cntl_mpu6050_thread()$/;"	f
+cond	edison_intel_client/client/mmap.h	/^  pthread_cond_t cond;$/;"	m	struct:mmapData
+cond	include/smart_home_mmap.h	/^  pthread_cond_t cond;$/;"	m	struct:mmapData
+creat_linkqueue	socket/smart_home_queue.c	/^linkqueue_t *creat_linkqueue()$/;"	f
+data	edison_intel_client/client/mmap.h	/^	char data[128];$/;"	m	struct:__anon1
+date	include/smart_home_queue.h	/^	char date[128];$/;"	m	struct:__anon8
+detector_mythread	msg_queue_thread/detector_thread.c	/^int detector_mythread(int argv)$/;"	f
+device_fd	smart_home_socket.cpp	/^		device_fd_t device_fd;$/;"	m	class:Socket	file:
+device_fd_t	include/smart_home_socket.h	/^}device_fd_t;$/;"	t	typeref:struct:__anon5
+dis_linkqueue	socket/smart_home_queue.c	/^int dis_linkqueue(linkqueue_t *lqp)$/;"	f
+exitError	edison_intel_client/client/main.cpp	/^void exitError(const char* errMsg) {$/;"	f
+fd	main.cpp	/^		int fd;$/;"	m	class:Beep	file:
+fd	main.cpp	/^		int fd;$/;"	m	class:Led	file:
+fd_beep	main.cpp	/^int fd_beep;$/;"	v
+fd_led	main.cpp	/^int fd_led;$/;"	v
+flagnum	socket/smart_home_adapter.c	/^int flagnum = 5;$/;"	v
+funccc	main.cpp	/^int funccc()$/;"	f
+gas	include/smart_home_mmap.h	/^	double gas;$/;"	m	struct:mmapData
+gas_queue	include/smart_home_socket.h	/^	linkqueue_t *gas_queue;$/;"	m	struct:__anon4
+gconfd	main.cpp	/^int gconfd,gsockfd;$/;"	v
+getQueue	smart_home_socket.cpp	/^		sensor_queue_t * getQueue()$/;"	f	class:Socket
+getSockfd	smart_home_socket.cpp	/^		int getSockfd()$/;"	f	class:Socket
+get_beep_fd	device/smart_home_beep.c	/^int get_beep_fd()$/;"	f
+get_fd	main.cpp	/^		int get_fd()$/;"	f	class:Beep
+get_fd	main.cpp	/^		int get_fd()$/;"	f	class:Led
+get_head_linkqueue	socket/smart_home_queue.c	/^int get_head_linkqueue(linkqueue_t *lqp,sock_msg *databuf)$/;"	f
+get_led_fd	device/smart_home_led.c	/^int get_led_fd(void){$/;"	f
+gsockfd	main.cpp	/^int gconfd,gsockfd;$/;"	v
+head	include/smart_home_queue.h	/^	link_queue_node_t *head; \/\/ front$/;"	m	struct:__anon9
+hostaddr	socket/socket_route.c	/^struct sockaddr_in hostaddr,clientaddr[10];$/;"	v	typeref:struct:sockaddr_in
+humidity	include/smart_home_mmap.h	/^	double humidity;$/;"	m	struct:mmapData
+in_queue	socket/smart_home_queue.c	/^int in_queue(linkqueue_t *lqp,const sock_msg *data)$/;"	f
+init_socket	edison_intel_client/client/main.cpp	/^int init_socket(const char *ip,int port)$/;"	f
+init_socket	socket/socket_route.c	/^int  init_socket(char *ip,int port,int num,sensor_queue_t *socket_read_queue)$/;"	f
+is_empty_linkqueue	socket/smart_home_queue.c	/^int is_empty_linkqueue(linkqueue_t *lqp)$/;"	f
+key_temp	include/smart_home_temperature.h	/^key_t key_temp;$/;"	v
+led_ctl	device/smart_home_led.c	/^void led_ctl(int fd_led,unsigned long cmd)$/;"	f
+led_fd	include/smart_home_socket.h	/^	int led_fd;$/;"	m	struct:__anon5
+light	include/smart_home_mmap.h	/^	double light;$/;"	m	struct:mmapData
+light_queue	include/smart_home_socket.h	/^	linkqueue_t *light_queue;$/;"	m	struct:__anon4
+link_queue_node_t	include/smart_home_queue.h	/^}link_queue_node_t;$/;"	t	typeref:struct:queuenode
+linkqueue_t	include/smart_home_queue.h	/^}linkqueue_t;$/;"	t	typeref:struct:__anon9
+main	edison_intel_client/client/main.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	main.cpp	/^int main(int argc, const char *argv[])$/;"	f
+mmapData	edison_intel_client/client/mmap.h	/^struct mmapData {$/;"	s
+mmapData	include/smart_home_mmap.h	/^struct mmapData {$/;"	s
+mmapFilePath	edison_intel_client/client/mmap.h	/^static const char* mmapFilePath = "\/tmp\/arduino";$/;"	v
+mmapFilePath	include/smart_home_mmap.h	/^static const char* mmapFilePath = "\/tmp\/arduino";$/;"	v
+mpu6050	include/smart_home_mpu6050.h	/^struct mpu6050 {$/;"	s
+msg	include/smart_home_queue.h	/^	sock_msg msg;$/;"	m	struct:queuenode
+msg	smart_home_socket.cpp	/^		sock_msg msg;$/;"	m	class:Socket	file:
+mutex	edison_intel_client/client/mmap.h	/^  pthread_mutex_t mutex;$/;"	m	struct:mmapData
+mutex	include/smart_home_mmap.h	/^  pthread_mutex_t mutex;$/;"	m	struct:mmapData
+mytemp	include/smart_home_temperature.h	/^void *mytemp(void *arg){$/;"	f
+name	include/smart_home_adapter.h	/^	char        name[20];$/;"	m	struct:__anon7
+next	include/smart_home_queue.h	/^	struct queuenode *next;$/;"	m	struct:queuenode	typeref:struct:queuenode::queuenode
+permission	include/smart_home_adapter.h	/^	permission_t permission;$/;"	m	struct:__anon7
+permission_t	include/smart_home_adapter.h	/^typedef unsigned long  permission_t;$/;"	t
+print_linkqueue	socket/smart_home_queue.c	/^void print_linkqueue(linkqueue_t *lqp)$/;"	f
+queue	smart_home_socket.cpp	/^		sensor_queue_t *queue;$/;"	m	class:Socket	file:
+queuenode	include/smart_home_queue.h	/^typedef struct queuenode{$/;"	s
+readCMD	smart_home_socket.cpp	/^		int readCMD(){$/;"	f	class:Socket
+readSignalValue	smart_home_socket.cpp	/^		int readSignalValue(int confd,SensorValue *sensorValue)$/;"	f	class:Socket
+readValue	smart_home_socket.cpp	/^		int readValue(string str)$/;"	f	class:Socket
+read_queue	socket/smart_home_queue.c	/^int read_queue(linkqueue_t *lqp,sock_msg *databuf)$/;"	f
+recv_cmd_type	edison_intel_client/client/pthreadService.cpp	/^void *recv_cmd_type(void *hehe)$/;"	f
+send_sensor_value	edison_intel_client/client/pthreadService.cpp	/^void *send_sensor_value(void * hehe)$/;"	f
+sensor_queue_t	include/smart_home_socket.h	/^} sensor_queue_t;$/;"	t	typeref:struct:__anon4
+sensor_value	main.cpp	/^SensorValue sensor_value;$/;"	v
+setBeep	main.cpp	/^		void setBeep(unsigned long cmd){$/;"	f	class:Beep
+setLed	main.cpp	/^		void setLed(unsigned long cmd)$/;"	f	class:Led
+setLedFd	smart_home_socket.cpp	/^		void setLedFd(int fd){$/;"	f	class:Socket
+shake_queue	include/smart_home_socket.h	/^	linkqueue_t *shake_queue;$/;"	m	struct:__anon4
+shmaddr	include/smart_home_temperature.h	/^TEMP *shmaddr;$/;"	v
+shmid	include/smart_home_temperature.h	/^int shmid;$/;"	v
+smart_home_adapter	socket/smart_home_adapter.c	/^unsigned long  smart_home_adapter (const char *name,const  int request)$/;"	f
+sock_msg	edison_intel_client/client/mmap.h	/^}sock_msg;$/;"	t	typeref:struct:__anon1
+sock_msg	include/smart_home_queue.h	/^}sock_msg;$/;"	t	typeref:struct:__anon8
+sock_msg_adpter	socket/socket_route.c	/^int sock_msg_adpter(sock_msg msg,SensorValue *Value)$/;"	f
+socket_accept	socket/socket_route.c	/^int socket_accept(int sockfd,int *m_confd){$/;"	f
+socket_queue	main.cpp	/^sensor_queue_t *socket_queue = NULL;$/;"	v
+socket_read	socket/socket_route.c	/^int socket_read(int sockfd,sensor_queue_t *socket_read_queue,device_fd_t device_fd)$/;"	f
+socket_signal_read	socket/socket_route.c	/^int socket_signal_read(int confd,SensorValue *Value)$/;"	f
+socket_signal_write	socket/socket_route.c	/^int socket_signal_write(int confd,sock_msg msg)$/;"	f
+socket_write	socket/socket_route.c	/^int socket_write(int sockfd,sock_msg msg,int device)$/;"	f
+sockfd	smart_home_socket.cpp	/^		int sockfd;$/;"	m	class:Socket	file:
+soundValue	edison_intel_client/client/mmap.h	/^ double soundValue;$/;"	m	struct:mmapData
+soundValue	include/smart_home_socket.h	/^	double soundValue;$/;"	m	struct:__anon6
+sound_queue	include/smart_home_socket.h	/^	linkqueue_t *sound_queue;$/;"	m	struct:__anon4
+tail	include/smart_home_queue.h	/^	link_queue_node_t *tail; \/\/ rear$/;"	m	struct:__anon9
+temp	include/smart_home_mpu6050.h	/^	signed short temp;$/;"	m	struct:mpu6050
+temp	include/smart_home_temperature.h	/^	float temp;$/;"	m	struct:__anon3
+temperature	edison_intel_client/client/mmap.h	/^ double temperature;$/;"	m	struct:mmapData
+temperature	include/smart_home_mmap.h	/^	double temperature;$/;"	m	struct:mmapData
+temperatureValue	include/smart_home_socket.h	/^	double temperatureValue;$/;"	m	struct:__anon6
+temperature_max	msg_queue_thread/detector_thread.c	/^	int temperature_max;$/;"	m	struct:__anon2	file:
+temperature_min	msg_queue_thread/detector_thread.c	/^	int temperature_min;$/;"	m	struct:__anon2	file:
+temperature_queue	include/smart_home_socket.h	/^	linkqueue_t *temperature_queue;$/;"	m	struct:__anon4
+touch	edison_intel_client/client/mmap.h	/^ double touch;$/;"	m	struct:mmapData
+touchValue	include/smart_home_socket.h	/^	double touchValue;$/;"	m	struct:__anon6
+type	edison_intel_client/client/mmap.h	/^	int type;$/;"	m	struct:__anon1
+type	include/smart_home_adapter.h	/^	long 		type;$/;"	m	struct:__anon7
+type	include/smart_home_queue.h	/^	int type;$/;"	m	struct:__anon8
+user_info	include/smart_home_adapter.h	/^user_info_t user_info[20];$/;"	v
+user_info_t	include/smart_home_adapter.h	/^}user_info_t;$/;"	t	typeref:struct:__anon7
+value	edison_intel_client/client/mmap.h	/^	double value;$/;"	m	struct:__anon1
+value	include/smart_home_queue.h	/^	double value;$/;"	m	struct:__anon8
+vibration	edison_intel_client/client/mmap.h	/^ double vibration;$/;"	m	struct:mmapData
+vibrationValue	include/smart_home_socket.h	/^	double vibrationValue;$/;"	m	struct:__anon6
+writeSignalCmd	smart_home_socket.cpp	/^		int writeSignalCmd(int confd,sock_msg msg)$/;"	f	class:Socket
+x	include/smart_home_mpu6050.h	/^	unsigned short x;$/;"	m	struct:mpu6050
+y	include/smart_home_mpu6050.h	/^	unsigned short y;$/;"	m	struct:mpu6050
+z	include/smart_home_mpu6050.h	/^	unsigned short z;$/;"	m	struct:mpu6050

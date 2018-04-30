@@ -1,0 +1,19 @@
+QSRC:=smart_home_queue.c 
+SSRC:=socket_route.c
+#CC:gcc
+CC:=arm-none-linux-gnueabi-gcc
+QSRC_O=$(basename $(QSRC)).o
+SSRC_O=$(basename $(SSRC)).o
+HEAD_PATH=-I ../include/ 
+
+ALL:$(QSRC_O) $(SSRC_O)
+	mv $^ ../
+$(QSRC_O):$(QSRC)
+	$(CC) -c $^ -o $@ $(HEAD_PATH)
+
+$(SSRC_O):$(SSRC)
+	$(CC) -c $^ -o $@ $(HEAD_PATH)
+
+
+clean:
+	rm *.o

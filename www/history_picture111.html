@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" >
+	var i=0;
+function next_pic(){
+	pic01= document.getElementById('image01')
+	pic01.src="./image/2000_08_11_06_02_28_picture_00000001"+i+".jpg"
+	i++
+}
+function forword_pic(){
+	pic01= document.getElementById('image01')
+	pic01.src="./image/2000_08_11_06_02_28_picture_00000001"+i+".jpg"
+	i--
+}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>抓拍历史照片</title>
+<style type="text/css">
+<!--
+.STYLE2 {
+	font-size: 36px;
+	color: #FF0000;
+}
+-->
+</style>
+</head>
+
+<body background="gif/23.jpg">
+	
+<form id="from1" name="from1"  method="post" action="cgi-bin/history.cgi"  >
+  
+   <label></label>
+  
+   <div class="slider" align="center">
+     <table width="1323" height="514" border="0">
+<caption>
+         <span class="STYLE2">历史照片         </span>
+</caption>
+       <tr>
+         <td width="186" height="510">&nbsp;</td>
+         <td width="939"><div align="center"><img src="" id="image01" alt="已到底部" /> </div></td>
+         <td width="176">&nbsp;</td>
+       </tr>
+     </table>
+   </div>
+   <table width="1221" border="0">
+     <tr>
+       <td width="424" height="156">&nbsp;</td>
+       <td width="601"><table width="716" border="0">
+         <tr>
+           <td width="358" height="54"><label>
+             <div align="center">
+           
+               <input  type="button" name="pre" id="pre"  value="上一张"  onclick="forword_pic()" />
+              </div>
+           </label></td>
+           <td width="348"><label>
+               <label>
+               <div align="center">
+                 <input  type="button" name="next" id="next" value="下一张" onclick="next_pic()"/>
+               </div>
+               </label>
+              <div align="center"></div>
+            </label></td>
+         </tr>
+       </table></td>
+       <td width="174">&nbsp;</td>
+     </tr>
+   </table>
+   <p>&nbsp;</p>
+</form>
+   
+</body>
+</html>

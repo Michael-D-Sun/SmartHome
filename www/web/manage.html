@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理中心</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 36px
+}
+.STYLE2 {color: #FF0000}
+.STYLE3 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.STYLE5 {font-size: 24px; }
+.STYLE12 {font-family: "楷体"}
+.STYLE13 {font-size: 24px; font-family: "楷体"; }
+.STYLE14 {font-family: "Times New Roman", Times, serif}
+.STYLE16 {
+	font-size: 24px
+}
+.STYLE17 {color: #FF00FF}
+.STYLE18 {font-family: "宋体"}
+.STYLE19 {font-size: 24px; font-family: "宋体"; }
+.STYLE20 {
+	font-size: 36px;
+	color: #FF00FF;
+}
+.STYLE21 {font-size: 36px; font-family: "宋体"; }
+-->
+</style>
+</head>
+
+<body background="./image/p7.jpg "width="1366"  height="768" >
+<table width="1318" height="882" border="0">
+<caption>
+ <span class="STYLE21">智能农场管理中心    </span><span class="STYLE1"><br />
+ </span>
+</caption>
+  <tr>
+    <td width="351" height="152" background="./gif/video.jpg"  ><form action="cgi-bin/picture.cgi" method="post" name="form2" class="STYLE1 STYLE2" id="form2">
+      <div align="center"><strong> <a href="history_picture.html" class="STYLE17">历史照片</a> </strong></div>
+    </form>    </td>
+    <td width="612" class="STYLE1" background="./gif/35.jpg"><form action="cgi-bin/monitor.cgi" method="post" name="form1" class="STYLE2" id="form1">
+      <div align="center" class="STYLE3"><a href="vedio.html" class="STYLE17">实时监控  </a></div>
+    </form>    </td>
+    <td width="341" background="./gif/5.jpg"><form id="form7" name="form7" method="post" action="cgi-bin/environment.cgi">
+        <label>
+        <div align="center">
+          <input name="environment" type="submit" class="STYLE20" id="environment" value="环境信息"  size="40" height="30"/>
+        </div>
+        </label>
+      </form>    </td>
+  </tr>
+  <tr>
+    <td height="701"><form id="form5" name="form5" method="post" action="cgi-bin/address.cgi">
+      <label>
+      <div align="center">        
+        <p>
+          <label></label>
+        </p>
+        <p>&nbsp; </p>
+        <table width="323" border="0">
+          <tr>
+            <td width="317" height="37"><div align="center" class="STYLE18"><span class="STYLE16"> IP 地址
+		<input type="text" name="ip" id="ip"  size="22"  height="20"/>
+            </span></div></td>
+          </tr>
+          <tr>
+            <td><div align="center" ><span class="STYLE19">网关地址</span></span>
+              <input type="text" name="mask" id="mask"  size="22"  height="20"/>
+            </div></td>
+          </tr>
+          <tr>
+            <td height="36">
+              <div align="center" class="STYLE18">
+                <p>&nbsp;                  </p>
+                <p>
+                  <input type="submit" name="start_wifi" id="start_wifi" value="开启wifi" />
+                  </p>
+              </div></td>
+          </tr>
+        </table>
+        <p align="center" class="STYLE13">
+        <label></label>
+        </p>
+      </div>
+      <p align="center" class="STYLE13">
+        <label></label>
+      </p>
+    </form>   
+      <form  id="from7"  name="from7" method="post" action="cgi-bin/phone.cgi">
+       <div id="haoma"  align="center">
+        
+         <table width="318" border="0">
+           <tr>
+             <td width="308"><div align="center" class="STYLE19">
+             </div>               
+               <span class="STYLE19">
+               <label>               </label>
+               
+               <label></label>
+               </span>               <span class="STYLE19">
+               <label></label>
+               </span>               <span class="STYLE19">
+               <label></label>
+          
+               <label>
+              
+               <div align="center" class="STYLE19">接收号码
+                  <input type="text" name="phone" id="phone"  size="22"  height="20"/>
+               </div>
+              
+               </label>              </td>
+           </tr>
+           <tr>
+             <td><div align="center" class="STYLE19">中心号码
+               <input type="text" name="phone_home" id="phone_home"  size="22"  height="20"/>
+             </div></td>
+           </tr>
+           <tr>
+             <td><div align="center" class="STYLE19">
+             </div>               
+               <span class="STYLE19">
+               <label>               </label>
+               
+               <label></label>
+                        
+               <label></label>
+                          
+               <label></label>
+                           
+               <label>
+               
+               <div align="center" class="STYLE19">
+                 
+<input type="submit" name="haoma_tijiao" id="haoma_tijiao" value="提交" />
+&nbsp;&nbsp;
+  <input type="reset" name="haoma_chongzhi" id="haoma_chongzhi" value="重置" />
+               </div>
+               <span class="STYLE18">
+               </label>              
+              </span></td>
+           </tr>
+         </table>
+         <p align="center" class="STYLE13">
+           <label></label>
+         </p>
+         <p align="center" class="STYLE5">
+          <span class="STYLE12">
+          <label></label>
+          </span>
+          <label>          </label>
+         </form>
+        
+      <h3 align="center">&nbsp; </h3>
+    </form>    </td>
+    <td><form id="form4" name="form4" method="post" action="cgi-bin/maxmin.cgi">
+       <div align="center">
+         <span class="STYLE13">&nbsp; &nbsp;<br />
+            <span class="STYLE18">空气环境参数设置&nbsp;</span> &nbsp;<br />
+          </span>
+        <table width="556" border="0">
+          <tr>
+            <td width="271"><div align="center" class="STYLE18"><span class="STYLE16">空气最高温度
+              <input type="text" name="air_temp_max" id="air_temp_max"  size="10"  height="20" value="99"/>
+            </span></div></td>
+            <td width="269"><div align="center" class="STYLE18"><span class="STYLE16">空气最低温度
+              <input type="text" name="air_temp_min" id="air_temp_min" size="10"  height="20" value="0"/>
+            </span></div></td>
+          </tr>
+          <tr>
+            <td><div align="center" class="STYLE18"><span class="STYLE16">空气最高湿度
+              <input type="text" name="air_hum_max" id="air_hum_max" size="10"  height="20" value="99"/>
+            </span></div></td>
+            <td><div align="center" class="STYLE18"><span class="STYLE16">空气最低湿度
+              <input type="text" name="air_hum_min" id="air_hum_min" size="10"  height="20" value="0"/>
+            </span></div></td>
+          </tr>
+        </table>
+        <p><span class="STYLE19">土壤环境参数设置</span></p>
+        <table width="555" border="0">
+          <tr>
+            <td width="270" class="STYLE18"><div align="center"><span class="STYLE16">土壤最高温度
+              <input type="text" name="soil_temp_max" id="soil_temp_max" size="10"  height="20" value="99"/>
+            </span></div></td>
+            <td width="275" class="STYLE18"><div align="center"><span class="STYLE16">土壤最低温度
+              <input type="text" name="soil_temp_min" id="soil_temp_min" size="10"  height="20" value="0"/>
+            </span></div></td>
+          </tr>
+          <tr>
+            <td class="STYLE18"><div align="center"><span class="STYLE16">土壤最高湿度
+              <input type="text" name="soil_hum_max" id="soil_hum_max" size="10"  height="20" value="99" />
+            </span></div></td>
+            <td class="STYLE18"><div align="center"><span class="STYLE16">土壤最低湿度
+              <input type="text" name="soil_hum_min" id="soil_hum_min" size="10"  height="20" value="0"/>
+            </span></div></td>
+          </tr>
+        </table>
+        <p><span class="STYLE19">光照强度设置<br />
+          </span></p>
+        <table width="553" border="0">
+          <tr>
+            <td width="274" class="STYLE18"><div align="center"><span class="STYLE16">光照最高强度
+              <input type="text" name="sun_max" id="sun_max" size="10"  height="20"  value="99"/>
+            </span></div></td>
+            <td width="269" class="STYLE18"><div align="center"><span class="STYLE16">光照最低强度
+              <input type="text" name="sun_min" id="sun_min" size="10"  height="20" value="0"/>
+            </span></div></td>
+          </tr>
+        </table>
+        <span class="STYLE18">
+        <label></label>
+        </span>
+        <table width="556" border="0">
+          <caption class="STYLE18">
+            <span class="STYLE16">CO2浓度和水位设置 </span>
+          </caption>
+          <tr>
+            <td width="276" class="STYLE18"><div align="center"><span class="STYLE16">CO2最大浓度</span>                
+                  <input type="text" name="CO2" id="CO2" size="10"  height="20" value="99"/>            
+            </div></td>
+            <td width="270" class="STYLE18"><span class="STYLE16">水位最大高度</span>                <input type="text" name="water" id="water"  size="10"   height="20" value="99"/>            </td>
+          </tr>
+        </table>
+        <span class="STYLE5"><br />
+          </span>       </div>
+      <div align="center" class="STYLE5">
+        <input name="tijiao" type="submit" id="tijiao" value="提交" />
+        &nbsp; &nbsp;
+        <input type="reset" name="chongzhi" id="chongzhi" value="重置" />
+      </div>
+      <div align="center"></div>
+    </form>     </td>
+    
+    <td><form id="form6" name="form6" method="post" action="cgi-bin/beep.cgi">
+      <p><label></label>
+      </p><div align="center">
+
+        <p class="STYLE19">报警  
+          <input type="radio" name="radio" id="beep_on" value="beep_on" />
+          on
+          <input type="radio" name="radio" id="beep_off" value="beep_off" />
+          off &nbsp;&nbsp;
+            <input type="submit" name="beep_ok" id="beep_ok" value="OK" />
+        </p>
+      </div>
+      </form>
+      <form action="cgi-bin/fan.cgi" method="post"  name="from8" class="STYLE19" id="from8">
+      <div align="center" >
+        <p>风扇
+          <input type="radio" name="radio" id="fengshan_on" value="fengshan_on" />
+          on
+          <input type="radio" name="radio" id="fengshan_off" value="fengshan_off" />
+          off &nbsp;&nbsp;
+            <input type="submit" name="fengshan_ok" id="fengshan_ok" value="OK" />
+        </p></div>
+        </form>
+        <form action="cgi-bin/gears.cgi" method="post" name="from9" class="STYLE19" id="from9" >
+          <div align="center"> <p>
+            <label>风扇档位
+               &nbsp;
+      <select name="fan_dangwei" size="1" id="fengshan_dangwei" >
+                <option  id="dangwei1"  value="dangwei1">档位1</option>
+                <option  id="danbwei2" value="dangwei2">档位2</option>
+                <option  id="dangwei3"value="dangwei3">档位3</option>
+              </select>
+              </label>
+  &nbsp;
+            <label>
+    <input type="submit" name="dangwei_ok" id="dangwei_ok" value="OK" />
+              </label>
+            </p>
+          </div>
+        </form>
+        <form action="cgi-bin/water.cgi" method="post" name="from10" class="STYLE13" id="from10">
+        <div align="center"><p>
+          <span class="STYLE18">
+          <label>水泵          </label>
+          </span>
+          <label>
+          <input type="radio" name="radio" id="shuibeng_on" value="shuibeng_on" />
+          <span class="STYLE14">on&nbsp;</span></label>        
+            <label>
+            <input type="radio" name="radio" id="shuibeng_off" value="shuibeng_off" />
+            <span class="STYLE14">            off</span></label>
+            <span class="STYLE14">&nbsp;&nbsp;</span>
+            <label>
+            <input type="submit" name="shuiwei_ok" id="shuiwei_ok" value="OK" />
+            </label>
+        </p>
+        </div></form>
+        <form action="cgi-bin/led.cgi" method="post" name="from11" class="STYLE13" id="from11">
+      <div align="center"></div>
+      <div align="center"></div>
+      <p align="center">
+        <label></label>
+        <label> </label>
+      </p>
+       <table width="334" border="0">
+        <tr>
+          <td width="71" height="56"><div align="center" class="STYLE18">灯1</div></td>
+          <td><label>
+            <input type="radio" name="radio" id="led1_on" value="led1_on" />
+            <span class="STYLE14">on</span></label>
+            <input type="radio" name="radio" id="led1_off" value="led1_off" />
+              <span class="STYLE14">off</span>
+              <div align="justify"></div>
+            </label></td>
+          <td width="110"><label>
+        
+          <div align="center">
+            <input type="submit" name="led1_ok" id="led1_ok" value="OK" />
+          </div>
+          </label></td>
+        </tr>
+        <tr>
+          <td height="78">
+            <label>
+           
+            <div align="center" class="STYLE18"> 灯2</div>
+            <span class="STYLE18">
+            </label>
+            </span></td>
+          <td><label>
+            
+              <input type="radio" name="radio" id="led2_on" value="led2_on" />
+              <span class="STYLE14">on</span></label>
+            <label>
+            
+              <input type="radio" name="radio" id="led2_off" value="led2_off" />
+              <span class="STYLE14">off</span></label></td>
+          <td><div align="center">
+              <input type="submit" name="led2_ok" id="led2_ok" value="OK" />
+            </div>
+            <div align="center"></div>
+            <label></label>
+            <div align="center"></div></td>
+        </tr>
+      </table>
+      <p align="center">
+        <label></label>&nbsp;&nbsp;</p>
+      </form>
+      <p align="center" class="STYLE5">
+        <label></label>
+        <label></label>
+        <label></label>
+      </p>
+      </form>    </td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
